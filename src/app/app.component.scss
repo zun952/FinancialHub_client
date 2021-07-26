@@ -1,3 +1,17 @@
-app-copyright {
-    margin: 150px;
+#common {
+    margin: 15px;
+}
+
+#common > * {
+    margin: 5px;
+}
+
+.app-menu {
+}
+
+.app-coins {
+}
+
+.app-copyright {
+    margin-top: 120px;
 }

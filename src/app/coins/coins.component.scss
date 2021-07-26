@@ -1,0 +1,17 @@
+#panel {
+    text-align: center;
+    border: 1px solid gray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#main {
+    width: 70%;
+    border: 1px solid gray;
+}
+
+#bookmarks {
+    width: 30%;
+    border: 1px solid gray;
+}
