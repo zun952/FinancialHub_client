@@ -6,17 +6,27 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { CoinsComponent } from './coins/coins.component';
 import { CopyrightComponent } from './copyright/copyright.component';
+import { ReuseableFormsComponent } from './reuseable-forms/reuseable-forms.component';
+import { ChartFormComponent } from './chart-form/chart-form.component';
+
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { NgxChartsModule } from "@swimlane/ngx-charts";
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     CoinsComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    ReuseableFormsComponent,
+    ChartFormComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    NgxChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
